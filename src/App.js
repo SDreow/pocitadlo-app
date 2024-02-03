@@ -20,13 +20,13 @@ const App = () => {
     setValue(0)
   }
 
-  return<>
+  return<div className="counter">
     <h1>Počítadlo</h1>
     <h2>{value}</h2>
-    <DecreaseButton decrease={decreaseOne}/>
-    <ResetButton reset={resetToZero}/>
     <IncreaseButton increase={increasetOne}/>
-  </>
+    <ResetButton reset={resetToZero}/>
+    <DecreaseButton decrease={decreaseOne}/>
+  </div>
 }
 
 export default App

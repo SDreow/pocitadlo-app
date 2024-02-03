@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+.counter {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #025259;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.counter h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
